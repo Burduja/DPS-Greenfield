@@ -1,0 +1,138 @@
+syntax = "proto3";
+package com.robot.grpc;
+
+// LEAVING
+service LeavingService {
+  rpc Leave (LeavingRequest) returns (LeavingResponse) {}
+}
+
+message LeavingRequest {
+  int32 id = 1;
+  int32 district = 2;
+}
+
+message LeavingResponse {
+  bool received = 1;
+}
+
+// GREETING
+service GreetService {
+  rpc Greet (GreetingRequest) returns (GreetingResponse) {}
+
+}
+
+message GreetingRequest {
+  string position = 1;
+  int32 district = 2;
+  int32 id = 3;
+  int32 port = 4;
+  string timestamp = 5;
+  string lamportTime = 6;
+}
+
+message GreetingResponse {
+  bool received = 1;
+  string timestamp = 2;
+  string lamportTime = 3;
+}
+
+
+// HEARTBEAT
+
+service HeartbeatService {
+  rpc SendHeartbeat (HeartbeatRequest) returns (HeartbeatResponse) {}
+
+}
+message HeartbeatRequest {
+  int32 robotId = 1;
+  string timestamp = 2;
+  string lamportTime = 3;
+}
+
+message HeartbeatResponse {
+  bool received = 1;
+  string timestamp = 2;
+  string lamportTime = 3;
+}
+
+// MECHANIC
+
+service MechanicService {
+  rpc RequestMechanic (MechanicRequest) returns (MechanicResponse) {}
+  rpc AcknowledgeMechanic (AcknowledgeMechanicRequest) returns (AcknowledgeMechanicResponse) {}
+}
+
+message MechanicRequest {
+  int32 robotId = 1;
+  string timestamp = 2;
+  string lamportTimestamp = 3;
+}
+
+message MechanicResponse {
+  bool received = 1;
+  string timestamp = 2;
+  string lamportTimestamp = 3;
+}
+
+
+message AcknowledgeMechanicRequest {
+  int32 robotId = 1;
+  string timestamp = 2;
+  string lamportTimestamp = 3;
+
+}
+
+message AcknowledgeMechanicResponse {
+  bool received = 1;
+  string timestamp = 2;
+  string lamportTimestamp = 3;
+}
+
+// RELOCATION
+
+service RelocationService {
+  rpc RequestRelocation (RelocationRequest) returns (RelocationResponse){}
+  rpc AcknowledgeRelocation (AcknowledgeRelocationRequest) returns (AcknowledgeRelocationResponse){}
+  rpc Moving (MovingRequest) returns (MovingResponse){}
+}
+
+message RelocationRequest {
+  int32 robotId = 1;
+  string timestamp = 2;
+  string lamportTimestamp = 3;
+
+}
+
+message RelocationResponse {
+  bool received = 1;
+  string timestamp = 2;
+  string lamportTimestamp = 3;
+}
+
+message AcknowledgeRelocationRequest {
+  int32 robotId = 1;
+  string timestamp = 2;
+  string lamportTimestamp = 3;
+
+}
+
+message AcknowledgeRelocationResponse {
+  bool received = 1;
+  string timestamp = 2;
+  string lamportTimestamp = 3;
+}
+
+message MovingRequest {
+  int32 robotId = 1;
+  int32 newPosX = 2;
+  int32 newPosY = 3;
+  int32 newDistrict = 4;
+  string timestamp = 5;
+  string lamportTimestamp = 6;
+}
+
+message MovingResponse {
+  bool received = 1;
+  string timestamp = 2;
+  string lamportTimestamp = 3;
+}

@@ -1,0 +1,179 @@
+Robot/RestMethods.java
+ Robot.RestMethods
+com/robot/grpc/LeavingServiceGrpc.java
+ com.robot.grpc.LeavingServiceGrpc
+ com.robot.grpc.LeavingServiceGrpc$1
+ com.robot.grpc.LeavingServiceGrpc$LeavingServiceBaseDescriptorSupplier
+ com.robot.grpc.LeavingServiceGrpc$LeavingServiceBlockingStub
+ com.robot.grpc.LeavingServiceGrpc$LeavingServiceFileDescriptorSupplier
+ com.robot.grpc.LeavingServiceGrpc$LeavingServiceFutureStub
+ com.robot.grpc.LeavingServiceGrpc$LeavingServiceImplBase
+ com.robot.grpc.LeavingServiceGrpc$LeavingServiceMethodDescriptorSupplier
+ com.robot.grpc.LeavingServiceGrpc$LeavingServiceStub
+ com.robot.grpc.LeavingServiceGrpc$MethodHandlers
+GRPC/MechanicServiceImpl.java
+ GRPC.MechanicServiceImpl
+Rest/services/RobotsService.java
+ Rest.services.RobotsService
+Simulators/Simulator.java
+ Simulators.Simulator
+Robot/MechanicRequest.java
+ Robot.MechanicRequest
+Rest/services/StatisticsService.java
+ Rest.services.StatisticsService
+com/robot/grpc/RobotService.java
+ com.robot.grpc.RobotService
+ com.robot.grpc.RobotService$1
+ com.robot.grpc.RobotService$AcknowledgeMechanicRequest
+ com.robot.grpc.RobotService$AcknowledgeMechanicRequest$1
+ com.robot.grpc.RobotService$AcknowledgeMechanicRequest$Builder
+ com.robot.grpc.RobotService$AcknowledgeMechanicRequestOrBuilder
+ com.robot.grpc.RobotService$AcknowledgeMechanicResponse
+ com.robot.grpc.RobotService$AcknowledgeMechanicResponse$1
+ com.robot.grpc.RobotService$AcknowledgeMechanicResponse$Builder
+ com.robot.grpc.RobotService$AcknowledgeMechanicResponseOrBuilder
+ com.robot.grpc.RobotService$AcknowledgeRelocationRequest
+ com.robot.grpc.RobotService$AcknowledgeRelocationRequest$1
+ com.robot.grpc.RobotService$AcknowledgeRelocationRequest$Builder
+ com.robot.grpc.RobotService$AcknowledgeRelocationRequestOrBuilder
+ com.robot.grpc.RobotService$AcknowledgeRelocationResponse
+ com.robot.grpc.RobotService$AcknowledgeRelocationResponse$1
+ com.robot.grpc.RobotService$AcknowledgeRelocationResponse$Builder
+ com.robot.grpc.RobotService$AcknowledgeRelocationResponseOrBuilder
+ com.robot.grpc.RobotService$GreetingRequest
+ com.robot.grpc.RobotService$GreetingRequest$1
+ com.robot.grpc.RobotService$GreetingRequest$Builder
+ com.robot.grpc.RobotService$GreetingRequestOrBuilder
+ com.robot.grpc.RobotService$GreetingResponse
+ com.robot.grpc.RobotService$GreetingResponse$1
+ com.robot.grpc.RobotService$GreetingResponse$Builder
+ com.robot.grpc.RobotService$GreetingResponseOrBuilder
+ com.robot.grpc.RobotService$HeartbeatRequest
+ com.robot.grpc.RobotService$HeartbeatRequest$1
+ com.robot.grpc.RobotService$HeartbeatRequest$Builder
+ com.robot.grpc.RobotService$HeartbeatRequestOrBuilder
+ com.robot.grpc.RobotService$HeartbeatResponse
+ com.robot.grpc.RobotService$HeartbeatResponse$1
+ com.robot.grpc.RobotService$HeartbeatResponse$Builder
+ com.robot.grpc.RobotService$HeartbeatResponseOrBuilder
+ com.robot.grpc.RobotService$LeavingRequest
+ com.robot.grpc.RobotService$LeavingRequest$1
+ com.robot.grpc.RobotService$LeavingRequest$Builder
+ com.robot.grpc.RobotService$LeavingRequestOrBuilder
+ com.robot.grpc.RobotService$LeavingResponse
+ com.robot.grpc.RobotService$LeavingResponse$1
+ com.robot.grpc.RobotService$LeavingResponse$Builder
+ com.robot.grpc.RobotService$LeavingResponseOrBuilder
+ com.robot.grpc.RobotService$MechanicRequest
+ com.robot.grpc.RobotService$MechanicRequest$1
+ com.robot.grpc.RobotService$MechanicRequest$Builder
+ com.robot.grpc.RobotService$MechanicRequestOrBuilder
+ com.robot.grpc.RobotService$MechanicResponse
+ com.robot.grpc.RobotService$MechanicResponse$1
+ com.robot.grpc.RobotService$MechanicResponse$Builder
+ com.robot.grpc.RobotService$MechanicResponseOrBuilder
+ com.robot.grpc.RobotService$MovingRequest
+ com.robot.grpc.RobotService$MovingRequest$1
+ com.robot.grpc.RobotService$MovingRequest$Builder
+ com.robot.grpc.RobotService$MovingRequestOrBuilder
+ com.robot.grpc.RobotService$MovingResponse
+ com.robot.grpc.RobotService$MovingResponse$1
+ com.robot.grpc.RobotService$MovingResponse$Builder
+ com.robot.grpc.RobotService$MovingResponseOrBuilder
+ com.robot.grpc.RobotService$RelocationRequest
+ com.robot.grpc.RobotService$RelocationRequest$1
+ com.robot.grpc.RobotService$RelocationRequest$Builder
+ com.robot.grpc.RobotService$RelocationRequestOrBuilder
+ com.robot.grpc.RobotService$RelocationResponse
+ com.robot.grpc.RobotService$RelocationResponse$1
+ com.robot.grpc.RobotService$RelocationResponse$Builder
+ com.robot.grpc.RobotService$RelocationResponseOrBuilder
+Rest/AdminServer.java
+ Rest.AdminServer
+ Rest.AdminServer$1
+GRPC/LeavingServiceImpl.java
+ GRPC.LeavingServiceImpl
+Rest/beans/Robot.java
+ Rest.beans.Robot
+Robot/MeasurementBuffer.java
+ Robot.MeasurementBuffer
+Rest/beans/AvgMeasurement.java
+ Rest.beans.AvgMeasurement
+Simulators/PM10Simulator.java
+ Simulators.PM10Simulator
+com/robot/grpc/RelocationServiceGrpc.java
+ com.robot.grpc.RelocationServiceGrpc
+ com.robot.grpc.RelocationServiceGrpc$1
+ com.robot.grpc.RelocationServiceGrpc$MethodHandlers
+ com.robot.grpc.RelocationServiceGrpc$RelocationServiceBaseDescriptorSupplier
+ com.robot.grpc.RelocationServiceGrpc$RelocationServiceBlockingStub
+ com.robot.grpc.RelocationServiceGrpc$RelocationServiceFileDescriptorSupplier
+ com.robot.grpc.RelocationServiceGrpc$RelocationServiceFutureStub
+ com.robot.grpc.RelocationServiceGrpc$RelocationServiceImplBase
+ com.robot.grpc.RelocationServiceGrpc$RelocationServiceMethodDescriptorSupplier
+ com.robot.grpc.RelocationServiceGrpc$RelocationServiceStub
+com/robot/grpc/MechanicServiceGrpc.java
+ com.robot.grpc.MechanicServiceGrpc
+ com.robot.grpc.MechanicServiceGrpc$1
+ com.robot.grpc.MechanicServiceGrpc$MechanicServiceBaseDescriptorSupplier
+ com.robot.grpc.MechanicServiceGrpc$MechanicServiceBlockingStub
+ com.robot.grpc.MechanicServiceGrpc$MechanicServiceFileDescriptorSupplier
+ com.robot.grpc.MechanicServiceGrpc$MechanicServiceFutureStub
+ com.robot.grpc.MechanicServiceGrpc$MechanicServiceImplBase
+ com.robot.grpc.MechanicServiceGrpc$MechanicServiceMethodDescriptorSupplier
+ com.robot.grpc.MechanicServiceGrpc$MechanicServiceStub
+ com.robot.grpc.MechanicServiceGrpc$MethodHandlers
+GRPC/HeartbeatServiceImpl.java
+ GRPC.HeartbeatServiceImpl
+GRPC/RelocationServiceImpl.java
+ GRPC.RelocationServiceImpl
+Simulators/Buffer.java
+ Simulators.Buffer
+Rest/beans/PollutionRecord.java
+ Rest.beans.PollutionRecord
+Robot/RobotsList.java
+ Robot.RobotsList
+Rest/beans/Robots.java
+ Rest.beans.Robots
+com/robot/grpc/GreetServiceGrpc.java
+ com.robot.grpc.GreetServiceGrpc
+ com.robot.grpc.GreetServiceGrpc$1
+ com.robot.grpc.GreetServiceGrpc$GreetServiceBaseDescriptorSupplier
+ com.robot.grpc.GreetServiceGrpc$GreetServiceBlockingStub
+ com.robot.grpc.GreetServiceGrpc$GreetServiceFileDescriptorSupplier
+ com.robot.grpc.GreetServiceGrpc$GreetServiceFutureStub
+ com.robot.grpc.GreetServiceGrpc$GreetServiceImplBase
+ com.robot.grpc.GreetServiceGrpc$GreetServiceMethodDescriptorSupplier
+ com.robot.grpc.GreetServiceGrpc$GreetServiceStub
+ com.robot.grpc.GreetServiceGrpc$MethodHandlers
+Rest/AdminClient.java
+ Rest.AdminClient
+Robot/CleaningRobot.java
+ Robot.CleaningRobot
+ Robot.CleaningRobot$1
+ Robot.CleaningRobot$2
+ Robot.CleaningRobot$3
+ Robot.CleaningRobot$4
+ Robot.CleaningRobot$5
+ Robot.CleaningRobot$6
+GRPC/GrpcServer.java
+ GRPC.GrpcServer
+Robot/MovingRequest.java
+ Robot.MovingRequest
+com/robot/grpc/HeartbeatServiceGrpc.java
+ com.robot.grpc.HeartbeatServiceGrpc
+ com.robot.grpc.HeartbeatServiceGrpc$1
+ com.robot.grpc.HeartbeatServiceGrpc$HeartbeatServiceBaseDescriptorSupplier
+ com.robot.grpc.HeartbeatServiceGrpc$HeartbeatServiceBlockingStub
+ com.robot.grpc.HeartbeatServiceGrpc$HeartbeatServiceFileDescriptorSupplier
+ com.robot.grpc.HeartbeatServiceGrpc$HeartbeatServiceFutureStub
+ com.robot.grpc.HeartbeatServiceGrpc$HeartbeatServiceImplBase
+ com.robot.grpc.HeartbeatServiceGrpc$HeartbeatServiceMethodDescriptorSupplier
+ com.robot.grpc.HeartbeatServiceGrpc$HeartbeatServiceStub
+ com.robot.grpc.HeartbeatServiceGrpc$MethodHandlers
+GRPC/GreetingServiceImpl.java
+ GRPC.GreetingServiceImpl
+Rest/beans/PosRobotsList.java
+ Rest.beans.PosRobotsList
+Simulators/Measurement.java
+ Simulators.Measurement
